@@ -14,6 +14,7 @@ import 'css/github.css'
 import 'css/boxes.css'
 import 'vendors/font-awesome/css/font-awesome.min.css'
 
+
 const { rhythm, fontSizeToPx } = typography
 
 module.exports = React.createClass({

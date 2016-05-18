@@ -1,0 +1,20 @@
+code {
+  font-size: 1.2em;
+}
+
+.box-warning {
+  background: #F8BBD0;
+  padding: 1rem;
+  color: #2A363B;
+  border-radius: 2px;
+}
+
+.my-subtext {
+  white-space: pre;
+  color: #7A8E95;
+  font-size: 1em;
+}
+
+pre {
+  padding: 1.0rem;
+}

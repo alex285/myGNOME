@@ -1,0 +1,43 @@
+pre {
+  background: #3A474C;
+  padding: 1.5rem;
+}
+
+body {
+  background: #2A363B;
+  color: white;
+  font-size:1.1em;
+  padding-bottom: 100px;
+}
+
+h1,h2,h3,h4 {
+  color:#2196F3;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+h1 {font-size: 2.2em;}
+h2 {font-size: 1.4em;}
+
+ul {
+  list-style: none;
+}
+
+.my-topbar a {
+  color: white!important;
+}
+
+a {
+  text-decoration: none;
+  color: #E84A5F;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.my-topbar {
+  box-shadow: 0 2px 5px 0px rgba(0,0,0,0.30);
+  position:fixed;
+  width:100%;
+}

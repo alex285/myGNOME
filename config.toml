@@ -1,0 +1,7 @@
+siteTitle="myGNOME"
+baseColor = "#E84A5F"
+linkPrefix = "/myGNOME"
+docPages = [
+  "/docs/",
+  "/docs/extensions/",
+]

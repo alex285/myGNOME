@@ -10,12 +10,11 @@ injectTapEventPlugin()
 const styles = {
   myAppBar: {
     position: 'fixed',
-    'box-shadow': '0px 2px 5px 0px rgba(0,0,0,0.30)',
+    boxShadow: '0px 2px 5px 0px rgba(0,0,0,0.30)',
     background: '#2196F3',
   },
   myLink: {
     color: 'white',
-    'font-family': 'Roboto',
   },
 }
 
@@ -43,12 +42,12 @@ class AppAppbar extends React.Component {
             <FlatButton
               style={styles.myLink}
               label="Explore"
-              containerElement={<Link to={prefixLink('/links/')} />}
+              containerElement={<Link to={prefixLink('/explore/')} />}
             />
             <FlatButton
               style={styles.myLink}
               label="GITHUB"
-              containerElement={<a href="https://github.com/callemall/material-ui" />}
+              containerElement={<a href="https://github.com/alex285/myGNOME" />}
             />
           </div>
         }

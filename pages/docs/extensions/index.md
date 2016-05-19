@@ -2,6 +2,9 @@
 title: Extensions
 ---
 
+[Edit on Github](https://github.com/alex285/myGNOME/blob/master/pages/docs/extensions/index.md) {.edit-page}
+<div class="clear"></div>
+
 Extensions provide to GNOME Shell additional features, or modify interface elements. When you enable an extension, you actually hot-loading code
 directly to GNOME Shell. Extensions can cause weird issues, and when that is the case you should unload the extension, and try again.
 

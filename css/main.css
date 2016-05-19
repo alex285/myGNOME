@@ -16,7 +16,7 @@ h1,h2,h3,h4 {
   margin-top: 40px;
 }
 
-h1 {font-size: 2.2em;}
+h1 {font-size: 2.2em; margin-bottom:20px;}
 h2 {font-size: 1.4em;}
 
 ul {
@@ -41,3 +41,16 @@ a:hover {
   position:fixed;
   width:100%;
 }
+
+.edit-page {
+  float: right;
+  position:relative;
+  bottom: 60px;
+  right:30px;
+  font-size: 0.9rem;
+  overflow:auto;
+  margin:0px;
+  padding:0px;
+}
+
+.clear { clear:both;}

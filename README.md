@@ -6,6 +6,7 @@ A page for easily getting started with GNOME!
 
 * ☑ Extensions _(Needs work!)_
 * ☐ Whats GNOME / Getting started
+* ☐ GNOME based desktops & Alternatives
 * ☐ Themes
 * ☐ Terminal Configurations (ZSH)
 * ☐ XDG-Apps

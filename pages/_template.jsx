@@ -1,9 +1,12 @@
 import React from 'react'
+import ReactDOM from 'react-dom'
 import { Link } from 'react-router'
 import { Container, Grid, Span } from 'react-responsive-grid'
 import { prefixLink } from 'gatsby-helpers'
 import includes from 'underscore.string/include'
 import { colors, activeColors } from 'utils/colors'
+import getMuiTheme from 'material-ui/styles/getMuiTheme'
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 
 import typography from 'utils/typography'
 import { config } from 'config'
@@ -12,8 +15,6 @@ import { config } from 'config'
 import 'css/main.css'
 import 'css/github.css'
 import 'css/boxes.css'
-import 'vendors/font-awesome/css/font-awesome.min.css'
-
 
 const { rhythm, fontSizeToPx } = typography
 

@@ -28,6 +28,7 @@ module.exports = React.createClass({
             content="width=device-width, initial-scale=1.0 maximum-scale=5.0"
           />
           <title>{title}</title>
+          <script src="https://use.fontawesome.com/6c96aed2c4.js"></script>
           <TypographyStyle />
           {css}
         </head>

@@ -27,7 +27,7 @@ depending the loading order. {.box-info}
 First you need GNOME Tweak Tool <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
 
 ```
-$ sudo apt-get install gnome-tweak-tool
+$ sudo apt install gnome-tweak-tool
 ```
 
 You will find GNOME Shell extensions [on EGO](https://extensions.gnome.org) or in your Linux repositories. Starting from GNOME 3.22

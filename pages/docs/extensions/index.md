@@ -18,8 +18,8 @@ alt + f2 / r
 
 In Wayland session, GNOME Shell cannot be restarted, so you need to relog.
 
-<i class="fa fa-info-circle" aria-hidden="true"></i>
-Because there isn't an API for extensions, each extension can override another one, fully or partially, depending the loading order.  
+Because there isn't an API for extensions, each extension can override another one, fully or partially,
+depending the loading order. {.box-info}  
 
 
 ## HOW DO I INSTALL AN EXTENSION?
@@ -27,7 +27,7 @@ Because there isn't an API for extensions, each extension can override another o
 First you need GNOME Tweak Tool <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
 
 ```
->_ sudo apt-get install gnome-tweak-tool
+$ sudo apt-get install gnome-tweak-tool
 ```
 
 You will find GNOME Shell extensions [on EGO](https://extensions.gnome.org) or in your Linux repositories. Starting from GNOME 3.22
@@ -73,5 +73,5 @@ extensions check for compatibility against GNOME version. You can disable this c
 <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
 
 ```
->_ gsettings set org.gnome.shell disable-extension-version-validation true
+$ gsettings set org.gnome.shell disable-extension-version-validation true
 ```

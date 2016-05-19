@@ -16,6 +16,9 @@ const styles = {
   myLink: {
     color: 'white',
   },
+  myLogoSpace: {
+    marginLeft: '100px',
+  },
 }
 
 class AppAppbar extends React.Component {
@@ -26,24 +29,28 @@ class AppAppbar extends React.Component {
         className="my-appbar"
         style={styles.myAppBar}
         iconElementLeft={
-          <FlatButton
-            style={styles.myLink}
-            label="myGNOME"
-            containerElement={<Link to={prefixLink('/')} />}
-          />
-        }
-        iconElementRight={
           <div>
             <FlatButton
               style={styles.myLink}
-              label="Docs"
-              containerElement={<Link to={prefixLink('/docs/')} />}
+              label="myGNOME"
+              containerElement={<Link to={prefixLink('/')} />}
             />
-            <FlatButton
-              style={styles.myLink}
-              label="Explore"
-              containerElement={<Link to={prefixLink('/explore/')} />}
-            />
+            <span style={styles.myLogoSpace} >
+              <FlatButton
+                style={styles.myLink}
+                label="Docs"
+                containerElement={<Link to={prefixLink('/docs/')} />}
+              />
+              <FlatButton
+                style={styles.myLink}
+                label="Explore"
+                containerElement={<Link to={prefixLink('/explore/')} />}
+              />
+            </span>
+          </div>
+        }
+        iconElementRight={
+          <div>
             <FlatButton
               style={styles.myLink}
               label="GITHUB"

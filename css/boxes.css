@@ -6,6 +6,13 @@ code {
   background: #3A474C;
   padding: 1rem;
   border-radius: 2px;
+  border-left: 3px solid #E23237;
+}
+
+.box-info {
+  background: #3A474C;
+  padding: 1rem;
+  border-radius: 2px;
   border-left: 3px solid #8BC34A;
 }
 

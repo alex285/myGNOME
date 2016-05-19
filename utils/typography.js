@@ -3,9 +3,9 @@ import Typography from 'typography'
 const options = {
   baseFontSize: '15px',
   baseLineHeight: '24px',
-  bodyFontFamily: '"Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif',
+  bodyFontFamily: '"Roboto", "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif',
   headerFontFamily: '"Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif',
-  bodyWeight: 300,
+  bodyWeight: 400,
   headerWeight: 200,
   boldWeight: 600,
   modularScales: [

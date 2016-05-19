@@ -3,10 +3,10 @@ code {
 }
 
 .box-warning {
-  background: #F8BBD0;
+  background: #3A474C;
   padding: 1rem;
-  color: #2A363B;
   border-radius: 2px;
+  border-left: 3px solid #8BC34A;
 }
 
 .my-subtext {

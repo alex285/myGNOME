@@ -1,6 +1,5 @@
 import React from 'react'
 import DocumentTitle from 'react-document-title'
-
 import { prefixLink } from 'gatsby-helpers'
 import { TypographyStyle } from 'utils/typography'
 const BUILD_TIME = new Date().getTime()
@@ -28,7 +27,9 @@ module.exports = React.createClass({
             content="width=device-width, initial-scale=1.0 maximum-scale=5.0"
           />
           <title>{title}</title>
-          <script src="https://use.fontawesome.com/6c96aed2c4.js"></script>
+          <script src="https://use.fontawesome.com/6c96aed2c4.js" />
+          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,500,400italic,700" rel="stylesheet" type="text/css" />
           <TypographyStyle />
           {css}
         </head>

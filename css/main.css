@@ -23,30 +23,24 @@ ul {
   list-style: none;
 }
 
-.my-topbar a {
-  color: white!important;
-}
-
 a {
   text-decoration: none;
-  color: #2196F3;
+  color: #00BCD4;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #00BCD4;
 }
 
 a:hover {
   text-decoration: underline;
 }
 
-.my-topbar {
-  box-shadow: 0 2px 5px 0px rgba(0,0,0,0.30);
-  position:fixed;
-  width:100%;
-}
-
 .edit-page {
   float: right;
   position:relative;
   bottom: 60px;
-  right:30px;
   font-size: 0.9rem;
   overflow:auto;
   margin:0px;

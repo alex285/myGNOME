@@ -11,10 +11,6 @@ const styles = {
   myAppBar: {
     position: 'fixed',
     boxShadow: '0px 2px 5px 0px rgba(0,0,0,0.30)',
-    background: '#2196F3',
-  },
-  myLink: {
-    color: 'white',
   },
   myLogoSpace: {
     marginLeft: '100px',
@@ -31,18 +27,16 @@ class AppAppbar extends React.Component {
         iconElementLeft={
           <div>
             <FlatButton
-              style={styles.myLink}
-              label="myGNOME"
+              className="my-test"
+              label="My-GNOME"
               containerElement={<Link to={prefixLink('/')} />}
             />
             <span style={styles.myLogoSpace} >
               <FlatButton
-                style={styles.myLink}
                 label="Docs"
                 containerElement={<Link to={prefixLink('/docs/')} />}
               />
               <FlatButton
-                style={styles.myLink}
                 label="Explore"
                 containerElement={<Link to={prefixLink('/explore/')} />}
               />

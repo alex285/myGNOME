@@ -1,16 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import getMuiTheme from 'material-ui/styles/getMuiTheme'
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import { Link } from 'react-router'
 import { Container, Grid, Span } from 'react-responsive-grid'
-import { prefixLink } from 'gatsby-helpers'
 import includes from 'underscore.string/include'
-import { colors, activeColors } from 'utils/colors'
-
-import AppAppbar from '../scripts/AppAppbar'
-
-
+import AppAppbar from '../components/AppAppbar'
 import typography from 'utils/typography'
 import { config } from 'config'
 
@@ -18,6 +11,21 @@ import { config } from 'config'
 import 'css/main.css'
 import 'css/github.css'
 import 'css/boxes.css'
+
+// Customize theme a bit. Here for now
+import getMuiTheme from 'material-ui/styles/getMuiTheme'
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
+import { white, cyan500 } from 'material-ui/styles/colors'
+
+const muiTheme = getMuiTheme({
+  palette: {
+    textColor: white,
+  },
+  appBar: {
+    height: 56,
+    color: cyan500,
+  },
+})
 
 const { rhythm, fontSizeToPx } = typography
 
@@ -28,11 +36,8 @@ module.exports = React.createClass({
     }
   },
   render () {
-    const docsActive = includes(this.props.location.pathname, '/docs/')
-    const linksActive = includes(this.props.location.pathname, '/links/')
-
     return (
-      <MuiThemeProvider muiTheme={getMuiTheme()}>
+      <MuiThemeProvider muiTheme={muiTheme}>
         <div>
           <AppAppbar />
           <Container

@@ -1,5 +1,5 @@
 siteTitle="myGNOME"
-baseColor = "#E84A5F"
+baseColor = "#00BCD4"
 linkPrefix = "/myGNOME"
 docPages = [
   "/docs/",

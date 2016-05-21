@@ -4,6 +4,7 @@ linkPrefix = "/myGNOME"
 docPages = [
   "/docs/",
   "/docs/extensions/",
+  "/docs/configuration/",
   "/docs/linux/",
   "/docs/ubuntu/",
 ]

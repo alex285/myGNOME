@@ -8,6 +8,7 @@ title: Contribute
 
 This is a doc project and thus you can contribute with documentation. You can edit pages and pull requests, or you can just [open an issue](https://github.com/alex285/myGNOME/issues) and propose changes and additions.
 
+**IMPORTANT!** All guides should be written and tested on latest GNOME! Currently 3.20 {.box-danger}
 
 Pages are written on [markdown-it](https://github.com/markdown-it/markdown-it) and we use some plugins like [markdown-it-atts](https://github.com/arve0/markdown-it-attrs), that allows embed additional styles.
 

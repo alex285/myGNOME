@@ -48,3 +48,19 @@ a:hover {
 }
 
 .clear { clear:both;}
+
+.hero-center {
+  width:100%;
+  margin-top: 200px;
+}
+
+.hero-center div {
+  margin: auto;
+  max-width: 300px;
+}
+
+.github-btn {
+  position:relative;
+  top:15px;
+  left:30px;
+}

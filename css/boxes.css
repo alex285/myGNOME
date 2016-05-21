@@ -2,18 +2,32 @@ code {
   font-size: 1.1em;
 }
 
-.box-warning {
+.box-danger {
   background: #3A474C;
   padding: 1rem;
   border-radius: 2px;
-  border-left: 3px solid #E23237;
+  border-left: 3px solid #EA4335;
+}
+
+.box-success {
+  background: #3A474C;
+  padding: 1rem;
+  border-radius: 2px;
+  border-left: 3px solid #34A853;
 }
 
 .box-info {
   background: #3A474C;
   padding: 1rem;
   border-radius: 2px;
-  border-left: 3px solid #8BC34A;
+  border-left: 3px solid #4285F4;
+}
+
+.box-warning {
+  background: #3A474C;
+  padding: 1rem;
+  border-radius: 2px;
+  border-left: 3px solid #FBBC05;
 }
 
 .my-subtext {

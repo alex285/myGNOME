@@ -40,6 +40,10 @@ class AppAppbar extends React.Component {
                 label="Explore"
                 containerElement={<Link to={prefixLink('/explore/')} />}
               />
+              <FlatButton
+                label="Contribute"
+                containerElement={<Link to={prefixLink('/contribute/')} />}
+              />
             </span>
           </div>
         }

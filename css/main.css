@@ -51,16 +51,29 @@ a:hover {
 
 .hero-center {
   width:100%;
-  margin-top: 200px;
+  margin-top: 50px;
+  text-align: center;
 }
 
 .hero-center div {
   margin: auto;
-  max-width: 300px;
+  max-width: 350px;
+}
+
+.hero-btns {
+  padding-left: 50px;
+  padding-top: 20px;
 }
 
 .github-btn {
   position:relative;
-  top:15px;
-  left:30px;
+  top:30px;
+  left:40px;
+}
+
+.slogan {
+  font-size: 30px;
+  position: relative;
+  bottom: 10px;
+  left:7px;
 }

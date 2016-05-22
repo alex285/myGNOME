@@ -5,6 +5,7 @@ docPages = [
   "/docs/",
   "/docs/extensions/",
   "/docs/configuration/",
+  "/docs/terminal/",
   "/docs/linux/",
   "/docs/ubuntu/",
 ]

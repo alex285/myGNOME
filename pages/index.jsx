@@ -3,7 +3,8 @@ import DocumentTitle from 'react-document-title'
 import { config } from 'config'
 import { prefixLink } from 'gatsby-helpers'
 import { Link } from 'react-router'
-import FlatButton from 'material-ui/FlatButton'
+import RaisedButton from 'material-ui/RaisedButton'
+import RecomendedGuides from 'components/RecomendedGuides'
 
 
 const appIndex = React.createClass({
@@ -21,10 +22,10 @@ const appIndex = React.createClass({
         <div>
           <div
             style={{
-              background: '#00838F',
+              background: 'linear-gradient(#0097A7,#00BCD4)',
               position: 'absolute',
               width: '100%',
-              height: '500px',
+              height: '480px',
               left: '0px',
               zIndex: '-1000',
               top: '56px',
@@ -32,13 +33,26 @@ const appIndex = React.createClass({
           />
           <div className="hero-center">
             <div>
-              <FlatButton
+              <img
+                role="presentation"
+                src="logo.png"
+              />
+            </div>
+            <div>
+              <span className="slogan">
+                One Customization Place <br />
+                For GNOME
+              </span>
+            </div>
+            <div className="hero-btns">
+              <RaisedButton
+                secondary={true}
                 label="DOCS"
                 containerElement={<Link to={prefixLink('/docs/')} />}
               />
               <iframe
                 className="github-btn"
-                src="https://ghbtns.com/github-btn.html?user=alex285&repo=myGNOME&type=star&count=true&"
+                src="https://ghbtns.com/github-btn.html?user=alex285&repo=myGNOME&type=star&count=true"
                 frameBorder="0"
                 scrolling="0"
                 width="170px"
@@ -46,6 +60,7 @@ const appIndex = React.createClass({
               />
             </div>
           </div>
+          <RecomendedGuides />
         </div>
       </DocumentTitle>
     )
